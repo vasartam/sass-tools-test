@@ -1,0 +1,31 @@
+@use "@vasart/sass-tools" as tools;
+
+.test-flex-gap {
+  .container {
+    margin: 0;
+    background: burlywood;
+  }
+
+  .container-inner {
+    display: flex;
+    flex-wrap: wrap;
+
+    &--margin-bottom-right {
+      @include tools.flex-gap(20px 40px);
+    }
+
+    &--margin-all {
+      @include tools.flex-gap-margin-all(20px 40px);
+    }
+
+    &--margin-top-left {
+      @include tools.flex-gap-margin-top-left(20px 40px);
+    }
+  }
+
+  .item {
+    width: 100px;
+    height: 100px;
+    background: purple;
+  }
+}
