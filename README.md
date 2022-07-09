@@ -1,7 +1,7 @@
 # sass-tools-test
 Sample project for visual testing `@vasart/sass-tools` library.
 
-For now there are no visual testing library integrated into `sass-tools`. The
+For now there are no visual testing library integrated into `sass-tools`.
 
 ## Installation
 
